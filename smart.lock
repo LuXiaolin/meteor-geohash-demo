@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "geohash": {}
+    },
+    "packages": {
+      "geohash": {
+        "git": "https://github.com/grigio/meteor-geohash.git",
+        "tag": "v0.0.3",
+        "commit": "75ba4ea2088cc98d419603d1ec72376aaaafc519"
+      }
+    }
+  }
+}

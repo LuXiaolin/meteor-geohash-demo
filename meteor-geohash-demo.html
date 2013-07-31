@@ -1,0 +1,21 @@
+<head>
+  <title>meteor-geohash-demo</title>
+  <head>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerwithlabel/1.0.1/src/markerwithlabel_packed.js"></script>
+</head>
+
+<body>
+<h1>Drag the map to see the geohashes around</h1>
+  {{> map}}
+  <p>
+    <a href="https://github.com/grigio/meteor-geohash">meteor-geohash</a><br>
+    demo source: <a href="https://github.com/grigio/meteor-geohash-demo">meteor-geohash-demo</a>
+  </p>
+</body>
+
+<template name="map">
+  <div id="map">
+    <div id="map-canvas" style="height:600px; width:600px;"></div>
+  </div>
+</template>
